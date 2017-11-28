@@ -1,0 +1,11 @@
+version: '2'
+services:
+  python-send:
+    build:
+      context: ./pythonSender/
+    image: python-send:
+  python-recv
+    build:
+      context: ./pythonreciver/
+    image: python-recv
+
