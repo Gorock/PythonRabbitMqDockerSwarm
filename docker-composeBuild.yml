@@ -6,6 +6,6 @@ services:
     image: python-send:
   python-recv
     build:
-      context: ./pythonreciver/
+      context: ./pythonReciver
     image: python-recv
 
